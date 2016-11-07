@@ -36,7 +36,7 @@ public class Funcionalidades extends JFrame {
 
 	private JPanel contentPane;
 	public static void main(String[] args) throws FontFormatException, IOException {
-		Funcionalidades frame = new Funcionalidades("Usu·rio", true, "Normal");
+		Funcionalidades frame = new Funcionalidades("Usu√°rio", true, "Normal");
 		frame.setVisible(true);
 	}
 	public Funcionalidades(String login, boolean adm, String grupo) throws FontFormatException, IOException {
@@ -230,7 +230,7 @@ public class Funcionalidades extends JFrame {
 		getContentPane().add(separator_1);
 
 		//JLabel informacoesTextFuncionalidades = new JLabel(login + " - " + grupo);
-		JLabel informacoesTextFuncionalidades = new JLabel("Bem vindo ao sistema, Usu\u00E1rio.");
+		JLabel informacoesTextFuncionalidades = new JLabel("Bem vindo ao sistema, " + login + ".");
 		
 		informacoesTextFuncionalidades.setHorizontalAlignment(SwingConstants.LEFT);
 		informacoesTextFuncionalidades.setBounds(150, 445, 260, 15);
